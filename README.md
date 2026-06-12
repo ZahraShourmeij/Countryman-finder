@@ -1,12 +1,126 @@
-# React + Vite
+# Countryman Finder 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern responsive web application that helps users find and connect with fellow countrymen around the world through a fast and intuitive search system.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+👉 https://countryman-finder.netlify.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Project Overview
+
+Countryman Finder is a frontend web application that simulates a global networking platform. Users can search for people from the same country, view profiles, and interact with structured user data efficiently.
+
+This project demonstrates practical skills in modern React development, including component-based architecture, API integration, state management, and responsive UI design.
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- Bootstrap
+- React Router
+- Axios
+- Context API
+- Redux
+- Local Storage
+- REST API
+- Lazy Loading
+- Suspense
+- Skeleton Loading UI
+
+---
+
+## ✨ Features
+
+- 🌍 Fully Responsive Design (Mobile / Tablet / Desktop)
+- 🔎 Advanced Search System
+- 📄 Pagination
+- 🎛️ Filtering & Sorting
+- 🔐 Authentication Flow (Frontend Simulation)
+- ⚡ REST API Integration (mockapi.io)
+- ⏳ Skeleton Loading States
+- ❌ Error Handling
+- 💾 Persistent State with Local Storage
+- ⚙️ Scalable Component Architecture
+
+---
+
+## 🌐 API Integration
+
+This project uses a mock REST API:
+
+https://68f17b88b36f9750dee96c75.mockapi.io/reviews
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](./screenshots/home.png)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+├── pages/
+├── assets/
+├── context/
+├── redux/
+├── services/
+├── hooks/
+└── App.jsx
+```
+
+---
+
+## ⚙️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ZahraShourmeij/Countryman-finder.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Production Build
+
+```bash
+npm run build
+```
+
+---
+
+## 🎯 Project Purpose
+
+This project was built as a portfolio piece to demonstrate:
+- Practical React skills
+- API integration and asynchronous data handling
+- State management using Redux and Context API
+- Real-world UI/UX patterns and responsiveness
+
+---
+
+## 👩‍💻 Author
+
+**Zahra Shourmeij**
